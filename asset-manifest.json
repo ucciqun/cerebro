@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/celebro/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/celebro/static/js/main.c9769813.chunk.js",
+    "main.js.map": "/celebro/static/js/main.c9769813.chunk.js.map",
+    "runtime-main.js": "/celebro/static/js/runtime-main.4873fac4.js",
+    "runtime-main.js.map": "/celebro/static/js/runtime-main.4873fac4.js.map",
+    "static/js/2.7cc8af50.chunk.js": "/celebro/static/js/2.7cc8af50.chunk.js",
+    "static/js/2.7cc8af50.chunk.js.map": "/celebro/static/js/2.7cc8af50.chunk.js.map",
+    "static/js/3.305881ee.chunk.js": "/celebro/static/js/3.305881ee.chunk.js",
+    "static/js/3.305881ee.chunk.js.map": "/celebro/static/js/3.305881ee.chunk.js.map",
+    "index.html": "/celebro/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/celebro/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7cc8af50.chunk.js.LICENSE.txt": "/celebro/static/js/2.7cc8af50.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/celebro/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4873fac4.js",
+    "static/js/2.7cc8af50.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c9769813.chunk.js"
+  ]
+}
