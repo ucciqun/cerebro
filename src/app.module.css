@@ -1,0 +1,29 @@
+.app {
+}
+.githubBudge {
+  display: block;
+  margin: 16px;
+  margin-left: auto;
+}
+.logo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: black;
+  padding: 8px;
+}
+.title {
+  font-size: 34px;
+  padding: 16px;
+  margin-left: 16px;
+  border-radius: 20px;
+  border: 1px solid black;
+
+  display: inline-block;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
