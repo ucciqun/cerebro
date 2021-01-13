@@ -7,7 +7,7 @@ const App: React.FC = () => {
       <img
         className={styles.githubBudge}
         alt="GitHub commit activity"
-        src="https://img.shields.io/github/commit-activity/m/ucciqun/celebro"
+        src="https://img.shields.io/github/commit-activity/m/ucciqun/cerebro"
       />
       <div className={styles.main}>
         <img
