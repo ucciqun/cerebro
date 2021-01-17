@@ -1,8 +1,9 @@
 .app {
+  /* background: #001324; */
+  padding: 24px;
 }
 .githubBudge {
   display: block;
-  margin: 16px;
   margin-left: auto;
 }
 .logo {
@@ -13,7 +14,7 @@
   background-color: black;
   padding: 8px;
 }
-.title {
+/* .title {
   font-size: 34px;
   padding: 16px;
   margin-left: 16px;
@@ -21,9 +22,28 @@
   border: 1px solid black;
 
   display: inline-block;
+} */
+.title {
+  font-family: Knockout;
+  font-size: 180px;
+  line-height: 163px;
+  text-align: center;
+  font-weight: 300;
+  color: black;
+  opacity: 0.87;
+
+  margin-top: 32px;
 }
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.description {
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+  padding: 0 100px;
+
+  margin-top: 24px;
 }
