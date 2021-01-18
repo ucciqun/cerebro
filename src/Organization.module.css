@@ -1,3 +1,7 @@
+.organization {
+  display: flex;
+  align-items: center;
+}
 .trapLogo {
   max-width: 200px;
 }
