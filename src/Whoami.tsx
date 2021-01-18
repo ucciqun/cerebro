@@ -1,7 +1,7 @@
 import { Divider } from "@material-ui/core";
-import Icon from "./mypic.png";
-import TypeScript from "./ts-logo-128.svg";
-import C from "./c-programming.svg";
+import Icon from "./asset/mypic.png";
+import TypeScript from "./asset/ts-logo-128.svg";
+import C from "./asset/c-programming.svg";
 import React from "react";
 import styles from "./Whoami.module.css";
 import GlassMorphism from "./GlassMorphism";

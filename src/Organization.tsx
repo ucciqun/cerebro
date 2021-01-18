@@ -1,7 +1,7 @@
 import React from "react";
 import GlassMorphism from "./GlassMorphism";
 import styles from "./Organization.module.css";
-import TraP from "./traP_logo.svg";
+import TraP from "./asset/traP_logo.svg";
 
 const Organization = () => {
   return (
