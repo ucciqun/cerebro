@@ -11,20 +11,29 @@
   display: flex;
 }
 .snsIconContainer {
+  margin: 16px;
   display: flex;
   flex-direction: column;
+  flex-grow: unset;
+}
 
-  margin: 0 16px;
-}
-.profileContainer {
-  display: flex;
-}
-.whoami_title {
+.title {
   font-family: Knockout;
-  color: #3c424f;
-  font-size: 40px;
+  color: white;
+  font-size: 60px;
 }
-.whoami_p {
-  /* font-weight: bold;
-    color: gray; */
+.description {
+  font-weight: bold;
+  color: white;
+  opacity: 0.87;
+
+  margin-top: 16px;
 }
+/* .twitterLink {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+
+  padding: 4px;
+} */
