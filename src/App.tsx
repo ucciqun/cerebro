@@ -7,15 +7,15 @@ import Whoami from "./Whoami";
 import Works from "./Works";
 
 const App: React.FC = () => {
-  const [mode, setMode] = useState<"right" | "dark">("right");
+  // const [mode, setMode] = useState<"right" | "dark">("right");
   return (
     <div
       className={styles.app}
-      style={{ backgroundColor: mode === "right" ? "white" : "black" }}
+      // style={{ backgroundColor: mode === "right" ? "white" : "black" }}
     >
-      <button onClick={() => setMode(mode === "right" ? "dark" : "right")}>
+      {/* <button onClick={() => setMode(mode === "right" ? "dark" : "right")}>
         {mode === "right" ? "turn off the right" : "turn on the right"}
-      </button>
+      </button> */}
       <img
         className={styles.githubBudge}
         alt="GitHub commit activity"
