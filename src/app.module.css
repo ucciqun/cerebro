@@ -75,3 +75,12 @@
 .profileContainer {
   display: flex;
 }
+.whoami_title {
+  font-family: Knockout;
+  color: #3c424f;
+  font-size: 40px;
+}
+.whoami_p {
+  /* font-weight: bold;
+  color: gray; */
+}

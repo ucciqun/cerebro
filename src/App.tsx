@@ -36,7 +36,20 @@ const App: React.FC = () => {
         </h3>
       </div>
 
-      <div className={styles.profileContainer}>
+      <div className={styles.profileContainer} style={{ position: "relative" }}>
+        <h1
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 40,
+            fontFamily: "Knockout",
+            fontSize: 200,
+            color: "skyblue",
+          }}
+        >
+          WHO AM I
+        </h1>
+
         <div className={styles.glassMorphism}>
           <div className={styles.profile}>
             <img
@@ -58,11 +71,14 @@ const App: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className={styles.glassMorphism}>
-          <h2>WHO AM I</h2>
-          <p>
+        <div className={styles.glassMorphism} style={{ flexGrow: 1 }}>
+          <h2 className={styles.whoami_title}>WHO AM I</h2>
+          <p className={styles.whoami_p}>
             東京工業大学 情報理工学院
             数理計算科学系でComputerScienceを学んでいる学生です。
+            <br />
+            web技術、デザイン、人間拡張(Human
+            Augmentation)にも興味を持っています。
           </p>
         </div>
       </div>
