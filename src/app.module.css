@@ -1,11 +1,12 @@
 .app {
-  background: linear-gradient(
+  /* background: linear-gradient(
     104.68deg,
     #dced73 0%,
     rgba(112, 234, 212, 0.3) 30.1%,
     rgba(245, 228, 166, 0.47) 68.37%,
     rgba(253, 148, 134, 0.29) 82.56%
-  );
+  ); */
+  background-color: black;
   padding: 24px;
   position: relative;
 }
@@ -14,9 +15,9 @@
   margin-left: auto;
 }
 .icon {
-  filter: blur(30px);
+  /* filter: blur(30px); */
   position: fixed;
-  top: 36px;
+  top: 56px;
 }
 /* .title {
   font-size: 34px;
@@ -33,7 +34,7 @@
   line-height: 163px;
   text-align: center;
   font-weight: 300;
-  color: #3c424f;
+  color: white;
 
   margin-top: 32px;
   /* text-shadow: gray 0 5px 10px; */
@@ -48,7 +49,7 @@
   font-size: 18px;
   font-weight: bold;
 
-  color: #212121;
+  color: white;
   opacity: 0.54;
 
   padding: 0 100px;
@@ -62,25 +63,4 @@
   border-radius: 30px;
   padding: 16px;
   margin: 16px;
-}
-.profile {
-  display: flex;
-}
-.snsIconContainer {
-  display: flex;
-  flex-direction: column;
-
-  margin: 0 16px;
-}
-.profileContainer {
-  display: flex;
-}
-.whoami_title {
-  font-family: Knockout;
-  color: #3c424f;
-  font-size: 40px;
-}
-.whoami_p {
-  /* font-weight: bold;
-  color: gray; */
 }
