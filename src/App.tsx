@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./app.module.css";
+import GlassMorphism from "./GlassMorphism";
 import Icon from "./icon.svg";
+import Organization from "./Organization";
 import Whoami from "./Whoami";
 
 const App: React.FC = () => {
@@ -21,7 +23,7 @@ const App: React.FC = () => {
         <h1 className={styles.title}>Welcome to my pages!</h1>
       </div> */}
       <img src={Icon} alt="アイコン" className={styles.icon} />
-      <div className={styles.glassMorphism}>
+      <GlassMorphism>
         <h1 className={styles.title}>
           REVEAL
           <br />
@@ -35,7 +37,8 @@ const App: React.FC = () => {
           自分の脳を目の前に置いて詳細にデッサンする、そんなグロテスクな体験はできないけれど、このサイトではそれに似た感覚が味わえるでしょう。
         </h3>
         <Whoami />
-      </div>
+        <Organization />
+      </GlassMorphism>
     </div>
   );
 };
