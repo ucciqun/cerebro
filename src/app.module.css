@@ -16,7 +16,7 @@
 }
 .icon {
   /* filter: blur(30px); */
-  position: absolute;
+  position: fixed;
   left: -10px;
 }
 /* .title {
