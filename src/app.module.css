@@ -45,13 +45,14 @@
   align-items: center;
 }
 .description {
+  text-align: right;
   font-size: 14px;
   font-weight: bold;
 
   color: white;
   opacity: 0.54;
 
-  padding: 0 100px;
+  padding: 0 0 100px 16px;
   margin-top: 24px;
 }
 .glassMorphism {

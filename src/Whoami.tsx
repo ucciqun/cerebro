@@ -7,24 +7,16 @@ import styles from "./Whoami.module.css";
 const Whoami = () => {
   return (
     <>
-      <div
-        className={styles.glassMorphism}
-        style={{
-          marginLeft: 500,
-        }}
-      >
-        <h2 className={styles.title}>WHO AM I</h2>
-        <Divider style={{ backgroundColor: "white" }} />
+      <h2 className={styles.title}>WHO AM I</h2>
+      <Divider style={{ backgroundColor: "white" }} />
 
-        <p className={styles.description}>
-          東京工業大学 情報理工学院
-          数理計算科学系でComputerScienceを学んでいる学生です。
-          <br />
-          web技術、デザイン、人間拡張(Human
-          Augmentation)にも興味を持っています。
-        </p>
-      </div>
-      <div className={styles.glassMorphism} style={{ marginLeft: 500 }}>
+      <p className={styles.description}>
+        東京工業大学 情報理工学院
+        数理計算科学系でComputerScienceを学んでいる学生です。
+        <br />
+        web技術、デザイン、人間拡張(Human Augmentation)にも興味を持っています。
+      </p>
+      <div className={styles.glassMorphism}>
         <div className={styles.snsIconContainer}>
           <div>
             <IconButton
