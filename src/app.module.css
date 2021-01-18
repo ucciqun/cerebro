@@ -16,8 +16,8 @@
 }
 .icon {
   /* filter: blur(30px); */
-  position: fixed;
-  top: 56px;
+  position: absolute;
+  left: -10px;
 }
 /* .title {
   font-size: 34px;
@@ -32,7 +32,7 @@
   font-family: Knockout;
   font-size: 180px;
   line-height: 163px;
-  text-align: center;
+  text-align: right;
   font-weight: 300;
   color: white;
 
@@ -45,8 +45,7 @@
   align-items: center;
 }
 .description {
-  text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 
   color: white;
