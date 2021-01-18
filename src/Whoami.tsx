@@ -1,8 +1,11 @@
-import { Divider, IconButton } from "@material-ui/core";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import { Divider } from "@material-ui/core";
+import Icon from "./mypic.png";
+import TypeScript from "./ts-logo-128.svg";
+import C from "./c-programming.svg";
 import React from "react";
 import styles from "./Whoami.module.css";
+import GlassMorphism from "./GlassMorphism";
+import Progress from "./Progress";
 
 const Whoami = () => {
   return (
@@ -20,6 +23,20 @@ const Whoami = () => {
         <br />
         将来的にはデザイナーとプログラマーの架け橋としてtranscompileできる人間を目指しています。
       </p>
+      <div className={styles.progress}>
+        <img src={Icon} alt="my pic" className={styles.mypic} />
+        <div style={{ flexGrow: 1 }}>
+          <GlassMorphism>
+            <Progress
+              icon={TypeScript}
+              title="TypeScript"
+              progress={80}
+              color="#3178C6"
+            />
+            <Progress icon={C} title="c" progress={60} color="#283593" />
+          </GlassMorphism>
+        </div>
+      </div>
     </div>
   );
 };

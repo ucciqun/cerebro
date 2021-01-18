@@ -31,3 +31,15 @@
 
   padding: 4px;
 } */
+.progress {
+  display: flex;
+}
+.mypic {
+  width: 200px;
+  border-radius: 20px;
+
+  margin-top: 16px;
+}
+.logo {
+  width: 32px;
+}
