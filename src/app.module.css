@@ -6,7 +6,7 @@
     rgba(245, 228, 166, 0.47) 68.37%,
     rgba(253, 148, 134, 0.29) 82.56%
   ); */
-  background-color: black;
+  background: linear-gradient(180deg, black 0%, black 10%, white 100%);
   padding: 24px;
   position: relative;
 }
@@ -16,8 +16,7 @@
 }
 .icon {
   /* filter: blur(30px); */
-  position: fixed;
-  left: -10px;
+  position: absolute;
 }
 /* .title {
   font-size: 34px;
@@ -54,4 +53,15 @@
 
   padding: 0 0 40px 16px;
   margin-top: 24px;
+
+  /* max-width: 50%; */
+}
+@media screen and (min-width: 1200px) {
+  .app {
+    padding: 24px 150px;
+  }
+  .icon {
+    width: 500px;
+    left: 150px;
+  }
 }

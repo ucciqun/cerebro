@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./app.module.css";
 import GlassMorphism from "./GlassMorphism";
 import Icon from "./asset/icon.svg";
@@ -7,9 +7,15 @@ import Whoami from "./Whoami";
 import Works from "./Works";
 
 const App: React.FC = () => {
+  const [mode, setMode] = useState<"right" | "dark">("right");
   return (
-    <div className={styles.app}>
-      <div className={styles.banner}></div>
+    <div
+      className={styles.app}
+      style={{ backgroundColor: mode === "right" ? "white" : "black" }}
+    >
+      <button onClick={() => setMode(mode === "right" ? "dark" : "right")}>
+        {mode === "right" ? "turn off the right" : "turn on the right"}
+      </button>
       <img
         className={styles.githubBudge}
         alt="GitHub commit activity"

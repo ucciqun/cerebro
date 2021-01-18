@@ -2,6 +2,7 @@ import { Divider } from "@material-ui/core";
 import Icon from "./asset/mypic.png";
 import TypeScript from "./asset/ts-logo-128.svg";
 import C from "./asset/c-programming.svg";
+import Cpp from "./asset/cpp_logo.svg";
 import React from "react";
 import styles from "./Whoami.module.css";
 import GlassMorphism from "./GlassMorphism";
@@ -34,6 +35,7 @@ const Whoami = () => {
               color="#3178C6"
             />
             <Progress icon={C} title="c" progress={60} color="#283593" />
+            <Progress icon={Cpp} title="cpp" progress={60} color="#00599C" />
           </GlassMorphism>
         </div>
       </div>
