@@ -45,6 +45,8 @@ const App: React.FC = () => {
         </h3>
         <Whoami />
         {/* <Organization /> */}
+      </GlassMorphism>
+      <GlassMorphism>
         <Works />
       </GlassMorphism>
     </div>
