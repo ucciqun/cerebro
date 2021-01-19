@@ -4,11 +4,13 @@
 }
 .detail {
   margin-left: 8px;
+  width: 80%;
 }
 .description {
   color: black;
   font-size: 15px;
   opacity: 0.54;
+  margin-top: 8px;
 }
 .main {
   display: flex;
