@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/cerebro/static/css/main.f6633cc1.chunk.css",
-    "main.js": "/cerebro/static/js/main.1a3cbc5b.chunk.js",
-    "main.js.map": "/cerebro/static/js/main.1a3cbc5b.chunk.js.map",
+    "main.css": "/cerebro/static/css/main.8194c33f.chunk.css",
+    "main.js": "/cerebro/static/js/main.f7620ef1.chunk.js",
+    "main.js.map": "/cerebro/static/js/main.f7620ef1.chunk.js.map",
     "runtime-main.js": "/cerebro/static/js/runtime-main.b7627cc1.js",
     "runtime-main.js.map": "/cerebro/static/js/runtime-main.b7627cc1.js.map",
-    "static/js/2.9769aafb.chunk.js": "/cerebro/static/js/2.9769aafb.chunk.js",
-    "static/js/2.9769aafb.chunk.js.map": "/cerebro/static/js/2.9769aafb.chunk.js.map",
+    "static/js/2.82b1e1b9.chunk.js": "/cerebro/static/js/2.82b1e1b9.chunk.js",
+    "static/js/2.82b1e1b9.chunk.js.map": "/cerebro/static/js/2.82b1e1b9.chunk.js.map",
     "static/js/3.989423f9.chunk.js": "/cerebro/static/js/3.989423f9.chunk.js",
     "static/js/3.989423f9.chunk.js.map": "/cerebro/static/js/3.989423f9.chunk.js.map",
     "index.html": "/cerebro/index.html",
-    "static/css/main.f6633cc1.chunk.css.map": "/cerebro/static/css/main.f6633cc1.chunk.css.map",
-    "static/js/2.9769aafb.chunk.js.LICENSE.txt": "/cerebro/static/js/2.9769aafb.chunk.js.LICENSE.txt",
+    "static/css/main.8194c33f.chunk.css.map": "/cerebro/static/css/main.8194c33f.chunk.css.map",
+    "static/js/2.82b1e1b9.chunk.js.LICENSE.txt": "/cerebro/static/js/2.82b1e1b9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/cerebro/static/media/Knockout HTF69-FullLiteweight Regular.db4a1a58.otf",
     "static/media/c-programming.55a9c086.svg": "/cerebro/static/media/c-programming.55a9c086.svg",
-    "static/media/cimicine.6fddfbf7.svg": "/cerebro/static/media/cimicine.6fddfbf7.svg",
     "static/media/cimicine_create.27a25d26.png": "/cerebro/static/media/cimicine_create.27a25d26.png",
     "static/media/cimicine_icon.1153c2df.svg": "/cerebro/static/media/cimicine_icon.1153c2df.svg",
+    "static/media/cimicine_pic.eb0a9db5.svg": "/cerebro/static/media/cimicine_pic.eb0a9db5.svg",
     "static/media/cimicine_roadmap.6deb3a40.png": "/cerebro/static/media/cimicine_roadmap.6deb3a40.png",
     "static/media/cimicine_top.c83c36d0.png": "/cerebro/static/media/cimicine_top.c83c36d0.png",
     "static/media/cpp_logo.2441702d.svg": "/cerebro/static/media/cpp_logo.2441702d.svg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b7627cc1.js",
-    "static/js/2.9769aafb.chunk.js",
-    "static/css/main.f6633cc1.chunk.css",
-    "static/js/main.1a3cbc5b.chunk.js"
+    "static/js/2.82b1e1b9.chunk.js",
+    "static/css/main.8194c33f.chunk.css",
+    "static/js/main.f7620ef1.chunk.js"
   ]
 }
