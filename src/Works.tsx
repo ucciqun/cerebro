@@ -55,6 +55,7 @@ const Works: React.FC = () => {
           image={d.image}
           createdAt={d.createdAt}
           color={d.color}
+          key={i}
         />
       ))}
     </div>

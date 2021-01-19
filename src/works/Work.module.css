@@ -23,6 +23,9 @@
   opacity: 0.54;
   margin-top: 8px;
 }
+.mediaSP {
+  display: none;
+}
 .main {
   display: flex;
   align-items: center;
@@ -51,5 +54,11 @@
   .titleAndCreatedAt {
     flex-direction: column;
     align-items: initial;
+  }
+  .mediaSP {
+    display: block;
+  }
+  .mediaPC {
+    display: none;
   }
 }

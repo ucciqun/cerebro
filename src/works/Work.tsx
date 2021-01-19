@@ -30,6 +30,7 @@ const Work: React.FC<WorkProps> = ({
       <img
         src={picture}
         alt=""
+        className={styles.mediaPC}
         style={{
           position: "absolute",
           width: 300,
@@ -59,9 +60,14 @@ const Work: React.FC<WorkProps> = ({
                 <Badge title={d} color="orange" key={i} />
               ))}
             </div>
-            <p className={styles.description}>{description}</p>
+            <p className={`${styles.description} ${styles.mediaPC}`}>
+              {description}
+            </p>
           </div>
         </div>
+        <p className={`${styles.description} ${styles.mediaSP}`}>
+          {description}
+        </p>
         <Divider />
         <div className={styles.images}>
           {image.map((d, i) => (
