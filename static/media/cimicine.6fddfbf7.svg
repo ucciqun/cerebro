@@ -1,0 +1,29 @@
+<svg width="517" height="462" viewBox="0 0 517 462" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M156 321L169 268L217.5 214.5L224 170L250 100.5L313.5 144.5L382 260.5L453 313.5" stroke="black" stroke-width="4"/>
+<path d="M250.5 100.5C245 128.5 277.5 123 284.5 162.5C291.5 202 195.277 215.502 280.5 253C318 269.5 433.5 296 319 342.5C199.527 391.019 79.3333 436.833 64 444" stroke="#8F8F8F" stroke-width="3"/>
+<line x1="248.5" y1="98" x2="248.5" y2="63" stroke="#007C40" stroke-width="3"/>
+<circle cx="249.5" cy="98.5" r="7.5" fill="#007C40"/>
+<rect x="247" y="53" width="33" height="25" fill="#007C40"/>
+<rect x="283" y="45.2191" width="13" height="5" transform="rotate(-39.2158 283 45.2191)" fill="#007C40"/>
+<rect x="286.161" y="78.093" width="13" height="5" transform="rotate(39.22 286.161 78.093)" fill="#007C40"/>
+<rect x="291" y="61.093" width="13" height="5" fill="#007C40"/>
+<rect width="13" height="5" transform="matrix(-0.774771 -0.632242 -0.632242 0.774771 242 45.2191)" fill="#007C40"/>
+<rect width="13" height="5" transform="matrix(-0.774724 0.6323 0.6323 0.774724 238.839 78)" fill="#007C40"/>
+<rect width="13" height="5" transform="matrix(-1 0 0 1 234 61)" fill="#007C40"/>
+<path d="M263.5 58L265.184 63.1824H270.633L266.225 66.3853L267.908 71.5676L263.5 68.3647L259.092 71.5676L260.775 66.3853L256.367 63.1824H261.816L263.5 58Z" fill="white"/>
+<path d="M93.6667 350.5L104.667 342.5L99.6667 359.5L93.6667 350.5Z" fill="#C4C4C4"/>
+<circle cx="86" cy="362" r="15" fill="white"/>
+<circle cx="86.5" cy="398.5" r="26.5" fill="white"/>
+<circle cx="100" cy="429" r="7" fill="white" stroke="#007C40" stroke-width="4"/>
+<circle cx="238" cy="372" r="9" fill="#007C40"/>
+<circle cx="266" cy="244" r="9" fill="#007C40"/>
+<circle cx="280" cy="185" r="9" fill="#007C40"/>
+<circle cx="266" cy="133" r="9" fill="#007C40"/>
+<circle cx="368" cy="303" r="9" fill="#007C40"/>
+<path d="M72.5 372.5L88.5 373.5L99 371.5L99.5 375.5L88.5 379L72 376.5L72.5 372.5Z" fill="#FF7878"/>
+<path d="M98.4168 373L102.5 376L102.5 377.5L97 375.167L98.4168 373Z" fill="#FF7878"/>
+<line x1="99.4044" y1="391.706" x2="107.404" y2="402.706" stroke="black"/>
+<line x1="103.5" y1="398" x2="103.5" y2="405" stroke="black"/>
+<line x1="103.137" y1="397.519" x2="110.137" y2="399.519" stroke="black"/>
+<circle cx="92.5" cy="354.5" r="2" stroke="black"/>
+</svg>
