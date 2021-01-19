@@ -6,7 +6,7 @@ import styles from "./Works.module.css";
 import Work from "./works/Work";
 import Cimicine from "./works/Work";
 
-import CimicinePic from "./asset/cimicine.svg";
+import CimicinePic from "./asset/cimicine_pic.svg";
 import CimicineIcon from "./asset/cimicine_icon.svg";
 import CimicineRoadmap from "./asset/cimicine_roadmap.png";
 import CimicineTop from "./asset/cimicine_top.png";
