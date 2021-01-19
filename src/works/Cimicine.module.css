@@ -10,6 +10,7 @@
 }
 .cimicine {
   display: flex;
+  margin-bottom: 24px;
 }
 .cimicineIcon {
   width: 128px;
