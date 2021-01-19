@@ -48,12 +48,12 @@ const Work: React.FC<WorkProps> = ({
           <h2 className={styles.work_title}>Cimicine</h2>
         </a> */}
           <div className={styles.detail}>
-            <h2 className={styles.title} style={{ color: color }}>
-              {title}{" "}
-              <span style={{ fontSize: 12, color: "gray", opacity: 0.54 }}>
-                createdAt {createdAt}
-              </span>
-            </h2>
+            <div className={styles.titleAndCreatedAt}>
+              <h2 className={styles.title} style={{ color: color }}>
+                {title}
+              </h2>
+              <p className={styles.createdAt}>{`createdAt ${createdAt}`}</p>
+            </div>
             <div className={styles.badgeContainer}>
               {badge.map((d, i) => (
                 <Badge title={d} color="orange" key={i} />
