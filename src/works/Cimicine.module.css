@@ -1,0 +1,21 @@
+.cimicine_title {
+  color: #007c40;
+  font-size: 60px;
+  opacity: 0.87;
+}
+.cimicine_description {
+  color: black;
+  font-size: 15px;
+  opacity: 0.54;
+}
+.cimicine {
+  display: flex;
+}
+.cimicineIcon {
+  width: 128px;
+}
+.cimicine_img {
+  position: absolute;
+  filter: blur(4px);
+  left: -100px;
+}
