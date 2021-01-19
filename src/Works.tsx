@@ -11,6 +11,9 @@ const Works: React.FC = () => {
       <h1 className={styles.title}>WORKS</h1>
       <Divider style={{ backgroundColor: "white" }} />
       <Cimicine />
+      <Cimicine />
+
+      <Cimicine />
     </div>
   );
 };
