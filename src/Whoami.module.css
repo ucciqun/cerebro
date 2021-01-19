@@ -37,6 +37,8 @@
 }
 .mypic {
   width: 200px;
+  height: 200px;
+  object-fit: contain;
   border-radius: 20px;
 
   margin-top: 16px;

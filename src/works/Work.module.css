@@ -14,16 +14,20 @@
 }
 .main {
   display: flex;
+  align-items: center;
   margin-bottom: 24px;
 }
 .icon {
   width: 128px;
+  height: 128px;
+  object-fit: contain;
 }
 .images {
   padding: 24px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /* background-color: black; */
+  overflow: scroll;
 }
 .image {
   margin: 0 20px;
