@@ -3,9 +3,11 @@ import styles from "./Cimicine.module.css";
 
 import CimicinePic from "../asset/cimicine.svg";
 import CimicineIcon from "../asset/cimicine_icon.svg";
+import CimicineRoadmap from "../asset/cimicine_roadmap.png";
 
 import Badge from "../Badge";
 import GlassMorphism from "../GlassMorphism";
+import { Divider } from "@material-ui/core";
 
 const Cimicine = () => {
   return (
@@ -50,6 +52,8 @@ const Cimicine = () => {
             </p>
           </div>
         </div>
+        <Divider />
+        <img src={CimicineRoadmap} alt="" style={{ height: 200 }} />
       </GlassMorphism>
     </>
   );
