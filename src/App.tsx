@@ -46,9 +46,7 @@ const App: React.FC = () => {
         <Whoami />
         {/* <Organization /> */}
       </GlassMorphism>
-      <GlassMorphism>
-        <Works />
-      </GlassMorphism>
+      <Works />
     </div>
   );
 };
