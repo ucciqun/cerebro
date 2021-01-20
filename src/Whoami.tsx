@@ -14,7 +14,7 @@ const Whoami = () => {
       <h2 className={styles.title}>
         WHO AM <span style={{ color: "" }}>I</span>
       </h2>
-      <Divider style={{ backgroundColor: "white" }} />
+      {/* <Divider style={{ backgroundColor: "white" }} /> */}
 
       <p className={styles.description}>
         私は東京工業大学 情報理工学院
