@@ -1,3 +1,10 @@
+.card {
+  border-radius: 20px;
+  border: 1px solid lightgray;
+
+  margin: 8px 0 16px;
+  padding: 8px;
+}
 .title {
   font-size: 60px;
   opacity: 0.87;
@@ -21,7 +28,7 @@
   color: black;
   font-size: 15px;
   opacity: 0.54;
-  margin-top: 8px;
+  margin: 8px;
 }
 .mediaSP {
   display: none;
@@ -29,7 +36,7 @@
 .main {
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 .icon {
   width: 128px;
@@ -39,7 +46,7 @@
 .images {
   padding: 24px;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   /* background-color: black; */
   overflow: scroll;
 }
@@ -60,5 +67,8 @@
   }
   .mediaPC {
     display: none;
+  }
+  .images {
+    justify-content: left;
   }
 }

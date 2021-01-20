@@ -38,7 +38,7 @@ const Work: React.FC<WorkProps> = ({
           // filter: "blur(4px)",
         }}
       />
-      <GlassMorphism>
+      <div className={styles.card}>
         <div className={styles.main}>
           <img src={icon} alt="" className={styles.icon} />
           {/* <a
@@ -74,7 +74,7 @@ const Work: React.FC<WorkProps> = ({
             <img src={d} alt="" className={styles.image} key={i} />
           ))}
         </div>
-      </GlassMorphism>
+      </div>
     </>
   );
 };

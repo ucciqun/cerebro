@@ -42,9 +42,10 @@ const workContainer = [
 ];
 const Works: React.FC = () => {
   return (
-    <div>
+    <div className={styles.works}>
       <h1 className={styles.title}>WORKS</h1>
-      <Divider style={{ backgroundColor: "white" }} />
+      <p>趣味やサークルで開発した子たち。WORKSというには大仰かも。</p>
+      {/* <Divider style={{ backgroundColor: "white" }} /> */}
       {workContainer.map((d, i) => (
         <Work
           icon={d.icon}
