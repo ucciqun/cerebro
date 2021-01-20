@@ -41,18 +41,14 @@ const Work: React.FC<WorkProps> = ({
       <div className={styles.card}>
         <div className={styles.main}>
           <img src={icon} alt="" className={styles.icon} />
-          {/* <a
-          href="https://cimicine-flow.web.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={styles.work_title}>Cimicine</h2>
-        </a> */}
           <div className={styles.detail}>
             <div className={styles.titleAndCreatedAt}>
-              <h2 className={styles.title} style={{ color: color }}>
-                {title}
-              </h2>
+              <div className={styles.iconAndTitle}>
+                <img src={icon} alt="" className={styles.iconSSP} />
+                <h2 className={styles.title} style={{ color: color }}>
+                  {title}
+                </h2>
+              </div>
               <p className={styles.createdAt}>{`createdAt ${createdAt}`}</p>
             </div>
             <div className={styles.badgeContainer}>

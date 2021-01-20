@@ -70,7 +70,9 @@
     font-size: 100px;
     line-height: 0.9;
 
-    margin-top: 230px;
+    margin-top: 250px;
+    position: relative;
+    left: 32px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -79,5 +81,8 @@
     object-fit: contain;
     left: -150px;
     top: 100px;
+  }
+  .app {
+    padding: 8px;
   }
 }

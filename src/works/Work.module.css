@@ -16,6 +16,9 @@
   font-weight: bold;
   margin: 0 0 10px 8px;
 }
+.iconSSP {
+  display: none;
+}
 .titleAndCreatedAt {
   display: flex;
   align-items: flex-end;
@@ -70,5 +73,25 @@
   }
   .images {
     justify-content: left;
+  }
+}
+@media screen and (max-width: 500px) {
+  .icon {
+    display: none;
+  }
+  .iconSSP {
+    display: initial;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+
+    margin-right: 16px;
+  }
+  .iconAndTitle {
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    font-size: 48px;
   }
 }
