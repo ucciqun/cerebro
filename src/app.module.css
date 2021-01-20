@@ -6,7 +6,7 @@
     rgba(245, 228, 166, 0.47) 68.37%,
     rgba(253, 148, 134, 0.29) 82.56%
   ); */
-  background: linear-gradient(180deg, black, white 1500px);
+  background: linear-gradient(180deg, black 700px, white 1500px);
   padding: 24px;
   position: relative;
 }
