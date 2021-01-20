@@ -24,7 +24,7 @@ const workContainer = [
     badge: ["TypeScript", "React", "Figma", "AdobeXD", "Firebase"],
     description:
       "学習ロードマップを簡単に作成し、共有できるwebアプリです。デザインとフロントエンドを担当し、データベースはBaaSであるfirebaseを使用しました。",
-    picture: CimicinePic,
+    // picture: CimicinePic,
     image: [CimicineTop, CimicineRoadmap, CimicineCreate],
     createdAt: "2020.12",
     color: "#007C40",
@@ -52,7 +52,7 @@ const Works: React.FC = () => {
           title={d.title}
           badge={d.badge}
           description={d.description}
-          picture={d.picture}
+          // picture={d.picture}
           image={d.image}
           createdAt={d.createdAt}
           color={d.color}
