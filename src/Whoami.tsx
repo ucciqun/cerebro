@@ -5,8 +5,8 @@ import C from "./asset/c-programming.svg";
 import Cpp from "./asset/cpp_logo.svg";
 import React from "react";
 import styles from "./Whoami.module.css";
-import GlassMorphism from "./GlassMorphism";
-import Progress from "./Progress";
+import GlassMorphism from "./atoms/GlassMorphism";
+import Progress from "./atoms/Progress";
 
 const Whoami = () => {
   return (

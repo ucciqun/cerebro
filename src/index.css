@@ -19,3 +19,7 @@ code {
   src: url(./fonts/Knockout\ HTF69-FullLiteweight\ Regular.otf)
     format("opentype");
 }
+@font-face {
+  font-family: Oioi;
+  src: url(./fonts/Oioi-Regular.otf) format("opentype");
+}

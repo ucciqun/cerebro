@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Work.module.css";
 
-import Badge from "../Badge";
-import GlassMorphism from "../GlassMorphism";
+import Badge from "../atoms/Badge";
 import { Divider } from "@material-ui/core";
 
 interface WorkProps {

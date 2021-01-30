@@ -1,5 +1,5 @@
 import React from "react";
-import GlassMorphism from "./GlassMorphism";
+import GlassMorphism from "./atoms/GlassMorphism";
 import styles from "./Organization.module.css";
 import TraP from "./asset/traP_logo.svg";
 

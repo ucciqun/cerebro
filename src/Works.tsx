@@ -1,6 +1,6 @@
 import { Divider } from "@material-ui/core";
 import React from "react";
-import GlassMorphism from "./GlassMorphism";
+import GlassMorphism from "./atoms/GlassMorphism";
 
 import styles from "./Works.module.css";
 import Work from "./works/Work";
