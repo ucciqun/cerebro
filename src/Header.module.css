@@ -3,11 +3,19 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  height: 50px;
 }
 .logo {
   height: 36px;
   width: 200px;
   object-fit: contain;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+.logo:hover {
+  height: 40px;
 }
 .button {
   outline: none;
