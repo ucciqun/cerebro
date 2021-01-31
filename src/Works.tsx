@@ -44,8 +44,21 @@ const Works: React.FC = () => {
   return (
     <div className={styles.works}>
       <h1 className={styles.title}>WORKS</h1>
-      <p>趣味やサークルで開発した子たち。WORKSというには大仰かも。</p>
-      {/* <Divider style={{ backgroundColor: "white" }} /> */}
+      <p style={{ color: "gray" }}>
+        サークルで開発したwebアプリとか、個人的に作ってみたもの。
+      </p>
+      {/* <div>
+        {workContainer.map((d, i) => (
+          <a href={`#${d.title}`} key={i} className={styles.link}>
+            <img src={d.icon} alt={d.title} className={styles.thumbnail} />
+            <div className={styles.detail}>
+              <h2>{d.title}</h2>
+              <p>{d.createdAt}</p>
+            </div>
+          </a>
+        ))}
+      </div> */}
+      <h1 style={{ fontFamily: "Oioi" }}>#webapp</h1>
       {workContainer.map((d, i) => (
         <Work
           icon={d.icon}

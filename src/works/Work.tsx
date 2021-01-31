@@ -25,7 +25,7 @@ const Work: React.FC<WorkProps> = ({
   color,
 }) => {
   return (
-    <>
+    <div id={title}>
       <img
         src={picture}
         alt=""
@@ -70,7 +70,7 @@ const Work: React.FC<WorkProps> = ({
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

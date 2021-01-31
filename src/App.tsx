@@ -10,11 +10,11 @@ const App: React.FC = () => {
   return (
     <Router>
       <div className={styles.app}>
-        <img
+        {/* <img
           className={styles.githubBudge}
           alt="GitHub commit activity"
           src="https://img.shields.io/github/commit-activity/m/ucciqun/cerebro"
-        />
+        /> */}
         <Header />
         <Switch>
           <Route path="/works">

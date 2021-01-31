@@ -1,14 +1,26 @@
 .title {
-  font-family: Knockout;
-  color: rgba(0, 0, 0, 0.87);
+  font-family: Oioi;
+  color: gray;
   font-size: 60px;
 }
 .works {
   padding: 20px;
   margin-top: 24px;
 }
+.link {
+  display: flex;
+  align-items: center;
+}
+.thumbnail {
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
+}
 @media screen and (max-width: 780px) {
   .works {
     padding: 4px;
+  }
+  .title {
+    font-size: 48px;
   }
 }
