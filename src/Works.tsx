@@ -1,12 +1,8 @@
-import { Divider } from "@material-ui/core";
 import React from "react";
-import GlassMorphism from "./atoms/GlassMorphism";
 
 import styles from "./Works.module.css";
 import Work from "./works/Work";
-import Cimicine from "./works/Work";
 
-import CimicinePic from "./asset/cimicine_pic.svg";
 import CimicineIcon from "./asset/cimicine_icon.svg";
 import CimicineRoadmap from "./asset/cimicine_roadmap.png";
 import CimicineTop from "./asset/cimicine_top.png";
@@ -17,7 +13,21 @@ import NASTrendTrend from "./asset/NASTrend/nastrend_trend.png";
 import NASTrendSignup from "./asset/NASTrend/nastrend_signup.png";
 import NASTrendTalk from "./asset/NASTrend/nastrend_talk.png";
 
+import OioiIcon from "./asset/OIOI_icon.svg";
+import OioiPic1 from "./asset/OIOI_pic1.png";
+import OioiPic2 from "./asset/OIOI_pic2.png";
+
 const workContainer = [
+  {
+    icon: OioiIcon,
+    title: "Oioi Font",
+    badge: ["Figma"],
+    description:
+      "このサイトのロゴを作る際に思いつきで作ったオリジナルフォントで、『マルイフォント』と呼びます。名前の通り真円だけをパーツに用いた丸みが特徴です。ゆくゆくは著作権フリーで公開するつもりです。",
+    image: [OioiPic1, OioiPic2],
+    createdAt: "2021.1",
+    color: "black",
+  },
   {
     icon: CimicineIcon,
     title: "Cimicine",
@@ -58,7 +68,6 @@ const Works: React.FC = () => {
           </a>
         ))}
       </div> */}
-      <h1 style={{ fontFamily: "Oioi" }}>#webapp</h1>
       {workContainer.map((d, i) => (
         <Work
           icon={d.icon}

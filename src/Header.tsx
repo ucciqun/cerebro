@@ -11,32 +11,30 @@ const Header = () => {
   const [img, setImg] = useState(Logo);
 
   return (
-    <>
-      <div className={styles.header}>
-        <button
-          className={styles.button}
-          onClick={() => history.push("/works")}
-          onMouseOver={() => setImg(LeftLogo)}
-          onMouseOut={() => setImg(Logo)}
-        >
-          WORKS
-        </button>
-        <img
-          src={img}
-          alt="ロゴ"
-          className={styles.logo}
-          onClick={() => history.push("/")}
-        />
-        <button
-          className={styles.button}
-          onClick={() => history.push("/about")}
-          onMouseOver={() => setImg(RightLogo)}
-          onMouseOut={() => setImg(Logo)}
-        >
-          ABOUT
-        </button>
-      </div>
-    </>
+    <div className={styles.header}>
+      <button
+        className={styles.button}
+        onClick={() => history.push("/cerebro")}
+        onMouseOver={() => setImg(LeftLogo)}
+        onMouseOut={() => setImg(Logo)}
+      >
+        WORKS
+      </button>
+      <img
+        src={img}
+        alt="ロゴ"
+        className={styles.logo}
+        onClick={() => history.push("/cerebro")}
+      />
+      <button
+        className={styles.button}
+        onClick={() => history.push("/about")}
+        onMouseOver={() => setImg(RightLogo)}
+        onMouseOut={() => setImg(Logo)}
+      >
+        ABOUT
+      </button>
+    </div>
   );
 };
 

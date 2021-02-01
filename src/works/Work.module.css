@@ -94,4 +94,7 @@
   .title {
     font-size: 48px;
   }
+  .image {
+    height: 120px;
+  }
 }
